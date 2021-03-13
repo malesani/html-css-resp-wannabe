@@ -78,26 +78,42 @@ img {
     padding: 0;
     box-sizing: border-box;
   }
-
-  #lezioni, #steps{
-    width: 420px;
-  }
   
   #lezioni .row>.left,
   #lezioni .row>.right{
     float: none;
     margin: 30px auto;
-  }
-
-  .row{
-    margin-top: 0;
+    width: 100%;
   }
 
   #lezioni .row{
-    background-color:#F2F2CD ;
+    background-color:#F2F2CD;
+    margin-top: 0;
   }
 
+  #steps .row{
+    margin-top: 20px;
+    background-color: white;
+  }
 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    float: none;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
 
+  #why .row{
+    background-color:#F2F2CD;
+    margin-top: 30px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 30px;
+  }
 
 }
